@@ -1,0 +1,93 @@
+.publication{
+  background: #F5F5FA;
+  height: 1000px;
+  padding-top: 35px;
+
+  .link{
+    font-weight: 700;
+    font-style: normal;
+    font-size: $extra-sm-fz;
+    text-decoration: none;
+    color: $text-and-link-color;
+  }
+
+  .link-and-text-wrapper__text{
+    font-weight: bold;
+    font-size: $lg-fz;
+    background: linear-gradient(45deg, #F0145A, #EF8080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .cards-wrapper{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+
+    .card{
+      @include card-size(400px, 232px);
+    }
+
+    .second-card {
+      @include card-size(400px, 420px);
+      margin-left: 40px;
+    }
+
+    .third-card {
+      @include card-size(400px, 462px);
+      margin-left: 40px;
+    }
+
+    .fourth-card {
+      @include card-size(400px, 416px);
+      position: absolute;
+      top: -232px;
+      right: 907px;
+    }
+
+    .fifth-card {
+      position: absolute;
+      top: -40px;
+      right: 464px;
+    }
+
+    .sixth-card {
+      position: absolute;
+      top: -17px;
+      right: 20px;
+    }
+
+  }
+  .shade-block {
+    position: relative;
+    .shade {
+      width: 100%;
+      padding: 100px 0;
+      background: linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      .shade-link-wrapper {
+        text-align: center;
+
+        .shade-link-wrapper__link {
+          text-decoration: none;
+          border-radius: 12px;
+          padding: 15px 60px;
+          background: $text-and-link-color;
+          color: white;
+          z-index: 1;
+
+          &:hover{
+            background: #41cbe0;
+            transition: .3s;
+          }
+        }
+      }
+    }
+  }
+}

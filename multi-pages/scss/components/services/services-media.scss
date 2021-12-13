@@ -1,0 +1,127 @@
+@include desktop-xxl() {
+  .services{
+
+    .long-line{
+      width:  94%;
+      height: 10px;
+      background: #838397;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 904px;
+      left: 40px;
+    }
+
+    .short-line{
+      width:  92%;
+      height: 10px;
+      background: #a3a3ab;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 914px;
+      left: 52px;
+    }
+  }
+}
+
+@include desktop-xl() {
+  .services{
+
+    .long-line{
+      width:  94%;
+      height: 10px;
+      background: #838397;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 904px;
+      left: 40px;
+    }
+
+    .short-line{
+      width:  92%;
+      height: 10px;
+      background: #a3a3ab;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 914px;
+      left: 50px;
+    }
+  }
+}
+
+@include lg() {
+  .services{
+  height: 2220px;
+
+    .long-line{
+      width:  94%;
+      height: 10px;
+      background: #838397;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 2204px;
+      left: 33px;
+    }
+
+    .short-line{
+      width:  92%;
+      height: 10px;
+      background: #a3a3ab;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 2214px;
+      left: 43px;
+    }
+  }
+}
+
+@include md() {
+  .services{
+    height: 2220px;
+
+    .long-line{
+      width:  94%;
+      height: 10px;
+      background: #838397;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 2204px;
+      left: 26px;
+    }
+
+    .short-line{
+      width:  90%;
+      height: 10px;
+      background: #a3a3ab;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 2214px;
+      left: 37px;
+    }
+  }
+}
+
+@include sm() {
+  .services{
+    height: 2320px;
+
+    .long-line{
+      width:  90%;
+      height: 10px;
+      background: #838397;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 2304px;
+      left: 26px;
+    }
+
+    .short-line{
+      width:  85%;
+      height: 10px;
+      background: #a3a3ab;
+      border-radius: 0 0 12px 12px;
+      position: absolute;
+      top: 2314px;
+      left: 38px;
+    }
+  }
+}

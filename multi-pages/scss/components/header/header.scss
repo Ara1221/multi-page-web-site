@@ -1,0 +1,63 @@
+header {
+ @extend %banner-and-header-bg;
+  padding: 25px 0;
+  .header-content {
+    @extend %banner-and-header-bg;
+    padding-top: 40px;
+
+    .header-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .menu-wrapper {
+        display: flex;
+        .menu-wrapper__link-wrapper{
+
+          .menu-wrapper__link{
+            color: white;
+            text-decoration: none;
+            padding: 5px 8px;
+            border-radius: 8px;
+            &:hover{
+              background-color: $tabs_font_and-link-color;
+              transition: .2s;
+            }
+          }
+
+        }
+
+        .menu-wrapper__text{
+          padding-left: 15px;
+        }
+        .menu-wrapper__dot{
+          padding: 0 5px 0 15px;
+        }
+
+        .menu-wrapper__facebook{
+          padding-left: 5px;
+        }
+      }
+
+      .tabs-wrapper {
+        text-align: right;
+        .tabs-wrapper__tab-wrapper {
+          &:not(:last-child) {
+            padding-right: 15px;
+          }
+
+          .tabs-wrapper__tab {
+            @include tabs-style(none, white);
+          }
+        }
+      }
+
+      .mobile-menu-wrapper{
+        text-align: right;
+        .mobile-menu{
+         display: none;
+        }
+      }
+    }
+  }
+}

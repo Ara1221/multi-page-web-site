@@ -1,0 +1,65 @@
+.services{
+  background-image: url("./../images/lawyer-bg.png");
+  @extend %styles-for-bg;
+  height: 920px;
+  padding-top: 50px;
+  position: relative;
+
+  .title-and-link-wrapper {
+
+    .above-the-title-link {
+      display: inline-block;
+      color: $gray;
+      text-decoration: none;
+    }
+
+    .link-arrow {
+      width: 12px;
+      height: 12px;
+    }
+
+    .services-title{
+      background: linear-gradient(45deg, #F0145A, #EF8080);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: $lg-fz;
+      font-weight: bold;
+    }
+  }
+
+  .services-block{
+    margin-top: 70px;
+
+    .services-block-text-wrapper__title{
+      font-size: $servicesTitle-fz;
+      color: #24A3FF;
+      padding-top: 15px;
+    }
+
+    .services-block-text-wrapper__text{
+      color: white;
+      max-width: 380px;
+    }
+  }
+
+  .long-line{
+    width:  98%;
+    height: 10px;
+    background: #838397;
+    border-radius: 0 0 12px 12px;
+    position: absolute;
+    top: 904px;
+    left: 17px;
+  }
+
+  .short-line{
+    width:  96%;
+    height: 10px;
+    background: #a3a3ab;
+    border-radius: 0 0 12px 12px;
+    position: absolute;
+    top: 914px;
+    left: 35px;
+  }
+}
+

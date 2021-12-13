@@ -1,0 +1,181 @@
+@include  desktop-xxl() {
+  .banner{
+    .banner-images-wrapper {
+      position: relative;
+      .banner-logo-wrapper {
+        position: absolute;
+        top: 240px;
+        left: 250px;
+        z-index: 2;
+      }
+
+      .banner-frame-wrapper{
+        position: absolute;
+        top: 125px;
+        left: 233px;
+      }
+
+      .banner-inscription-wrapper{
+        position: absolute;
+        top: 312px;
+        left: 335px;
+        z-index: 2;
+      }
+
+      .banner-scroll-wrapper{
+        position: absolute;
+        top: 620px;
+        left: 550px;
+        z-index: 2;
+      }
+    }
+  }
+}
+
+@include  desktop-xl() {
+  .banner{
+    .banner-images-wrapper {
+      position: relative;
+      .banner-logo-wrapper {
+        position: absolute;
+        top: 240px;
+        left: 200px;
+        z-index: 2;
+      }
+
+      .banner-frame-wrapper{
+        position: absolute;
+        top: 125px;
+        left: 183px;
+      }
+
+      .banner-inscription-wrapper{
+        position: absolute;
+        top: 312px;
+        left: 285px;
+        z-index: 2;
+      }
+
+      .banner-scroll-wrapper{
+        position: absolute;
+        top: 625px;
+        left: 500px;
+        z-index: 2;
+      }
+    }
+  }
+}
+
+@include  lg() {
+  .banner{
+    height: 800px;
+    .banner-images-wrapper {
+      position: relative;
+      .banner-logo-wrapper {
+        position: absolute;
+        top: 240px;
+        left: 50px;
+        z-index: 2;
+      }
+
+      .banner-frame-wrapper{
+        position: absolute;
+        top: 150px;
+        left: 38px;
+      }
+
+      .banner-inscription-wrapper{
+        position: absolute;
+        top: 312px;
+        left: 135px;
+        z-index: 2;
+      }
+
+      .banner-scroll-wrapper{
+        position: absolute;
+        top: 650px;
+        left: 350px;
+        z-index: 2;
+      }
+    }
+  }
+}
+
+@include  md() {
+  .banner{
+    height: 800px;
+    .banner-images-wrapper {
+      position: relative;
+      .banner-logo-wrapper {
+        position: absolute;
+        top: 240px;
+        left: 0;
+        z-index: 2;
+        .banner-logo-wrapper__banner-logo{
+          width: 495px;
+          height: 500px;
+        }
+      }
+
+      .banner-frame-wrapper{
+       display: none;
+      }
+
+      .banner-inscription-wrapper{
+        position: absolute;
+        top: 312px;
+        left: 87px;
+        z-index: 2;
+
+        .banner-inscription{
+          width: 346px;
+          height: 80px;
+        }
+      }
+
+      .banner-scroll-wrapper{
+       display: none;
+      }
+    }
+  }
+}
+
+@include  sm() {
+  .banner{
+    height: 700px;
+    .banner-images-wrapper {
+      position: relative;
+      .banner-logo-wrapper {
+        position: absolute;
+        top: 240px;
+        left: 0;
+        z-index: 2;
+        .banner-logo-wrapper__banner-logo{
+          width: 395px;
+          height: 400px;
+        }
+      }
+
+      .banner-frame-wrapper{
+        display: none;
+      }
+
+      .banner-inscription-wrapper{
+        position: absolute;
+        top: 296px;
+        left: 28px;
+        z-index: 2;
+
+        .banner-inscription{
+          width: 346px;
+          height: 80px;
+        }
+      }
+
+      .banner-scroll-wrapper{
+        display: none;
+      }
+    }
+  }
+}
+

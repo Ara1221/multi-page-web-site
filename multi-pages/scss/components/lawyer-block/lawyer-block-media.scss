@@ -1,0 +1,110 @@
+@include  desktop-xxl() {
+  .lawyer-block {
+    @extend %styles-for-bg;
+    .collapse-wrapper {
+      display: flex;
+      align-items: center;
+      margin-left: 0;
+      .btn{
+        @extend %collapse-btn-style;
+        color: white;
+
+        &:nth-child(4){
+          max-width: 500px;
+        }
+      }
+
+      .collapse-text-wrapper{
+        padding-left: 20px;
+      }
+
+      .card{
+        background-color: #323264;
+        color: white;
+        border: none;
+      }
+
+    }
+  }
+}
+
+@include desktop-xl() {
+  .lawyer-block {
+    height: 460px;
+    .collapse-wrapper {
+      margin-left: 0;
+      display: flex;
+      align-items: center;
+
+      .btn{
+        font-size: $md-fz;
+
+        &:nth-child(4){
+          max-width: 400px;
+        }
+      }
+
+
+
+        .card {
+          width: 400px;
+          background-color: #323264;
+          color: white;
+          border: none;
+
+          .collapse-text-wrapper{
+            padding-left: 10px;
+
+            .card-title{
+              font-size: 20px;
+            }
+
+            .card-text{
+              font-size: $extra-sm-fz;
+            }
+          }
+        }
+    }
+  }
+}
+
+@include lg() {
+  .lawyer-block {
+    height: 600px;
+    .collapse-wrapper {
+      display: none;
+      .btn{
+        display: none;
+      }
+    }
+
+    .accordion{
+      display: block;
+
+      .accordion-item {
+        border-color: #a52d96;
+
+        .accordion-header {
+          border: none;
+
+          .accordion-button {
+            background: $accordion-bg;
+            color: white;
+          }
+        }
+
+        .accordion-body {
+          background: $accordion-bg;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+
+@include md() {
+  .lawyer-block{
+    height: 500px;
+  }
+}

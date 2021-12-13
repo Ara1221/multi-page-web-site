@@ -1,0 +1,19 @@
+.partners {
+  margin: 30px 0 0 0;
+
+  .partners-title {
+    color: #323264;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .partners-wrapper {
+    display: flex;
+    padding: 0;
+    .partners-img-wrapper__img{
+      width: 479px;
+      height: 164px;
+      display: block;
+    }
+  }
+}

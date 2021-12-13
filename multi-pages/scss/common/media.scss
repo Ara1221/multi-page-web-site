@@ -1,0 +1,37 @@
+@mixin desktop-xxxl(){
+  @media (min-width: $xxl-min-width) {
+    @content;
+  }
+}
+
+
+
+@mixin desktop-xxl(){
+  @media (max-width: $xxl) {
+    @content;
+  }
+}
+
+@mixin desktop-xl(){
+  @media (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin lg(){
+  @media (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin md(){
+  @media (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin sm(){
+  @media (max-width: $sm) {
+    @content;
+  }
+}

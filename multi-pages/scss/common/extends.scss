@@ -1,0 +1,76 @@
+%banner-and-header-bg{
+  background-image: url("./../images/banner-and-header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+%tabsStyle{
+  &:hover {
+    color: $tabs-font-and-link-color;
+    transition: .2s;
+  }
+}
+
+%styles-for-bg{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+%collapse-btn-style{
+  font-size: $lg-fz;
+  background: none;
+  border-right: 4px solid white;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  padding-right: 30px;
+  cursor: pointer;
+
+  &:hover{
+    background: linear-gradient(45deg, #EF8080, #F0145A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-color: #F0145A;
+  }
+}
+
+
+%successful-cases-blocks-style{
+  background: $successful-cases-bg;
+  .successful-cases__text{
+    padding-left: 15px;
+  }
+}
+
+%successful-cases-blocks-company{
+  padding: 20px 0 0 15px;
+  color: $companyColor;
+  font-weight: lighter;
+  font-size: $sm-fz;
+}
+
+
+%card-content{
+  border-radius: 8px;
+  .card-title{
+    font-size: $sm-fz;
+    color: $text-and-link-color;
+    margin: 0;
+  }
+
+  .card-subtitle{
+    font-size: $extra-extra-sm-fz;
+    padding-top: 15px;
+    color: $card-subTitle-color;
+  }
+
+  hr{
+    height: 4px;
+    color: #adacac;
+  }
+
+  .card-text{
+    color: black;
+  }
+}

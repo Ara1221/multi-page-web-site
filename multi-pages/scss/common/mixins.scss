@@ -1,0 +1,24 @@
+@mixin tabs-style($textDecoration, $color){
+  @extend %tabsStyle;
+  text-decoration: $textDecoration;
+  color: $color;
+}
+
+@mixin successful-cases-textWrapper($padding, $border-radius, $color, $font-size, $font-weight){
+  @extend %successful-cases-blocks-style;
+  padding: $padding;
+  border-radius: $border-radius;
+
+  .successful-cases__text {
+    color: $color;
+    font-size: $font-size;
+    font-weight: $font-weight;
+  }
+}
+
+
+@mixin card-size($width, $height){
+  @extend %card-content;
+  width: $width;
+  height: $height;
+}

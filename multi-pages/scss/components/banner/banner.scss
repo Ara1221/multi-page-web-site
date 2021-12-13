@@ -1,0 +1,34 @@
+.banner{
+ @extend %banner-and-header-bg;
+  height: 950px;
+  z-index: -2;
+ .banner-images-wrapper {
+  position: relative;
+  .banner-logo-wrapper {
+   position: absolute;
+   top: 240px;
+   left: 300px;
+   z-index: 2;
+  }
+
+  .banner-frame-wrapper{
+   position: absolute;
+   top: 125px;
+   left: 283px;
+  }
+
+  .banner-inscription-wrapper{
+   position: absolute;
+   left: 385px;
+   top: 312px;
+   z-index: 2;
+  }
+
+  .banner-scroll-wrapper{
+   position: absolute;
+   left: 600px;
+   top: 620px;
+   z-index: 2;
+  }
+ }
+}

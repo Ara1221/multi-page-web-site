@@ -1,0 +1,414 @@
+@include  desktop-xxl() {
+  .carousel {
+
+    .carousel-indicators {
+      .first-switch {
+        position: absolute;
+        top: 8px;
+        left: 370px;
+        width: 16px;
+        height: 16px;
+      }
+
+      .second-switch {
+        position: absolute;
+        top: 8px;
+        left: 410px;
+        width: 16px;
+        height: 16px;
+      }
+
+      .third-switch {
+        position: absolute;
+        top: 8px;
+        left: 450px;
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .carousel-item {
+      position: relative;
+      background: #F5F5FA;
+
+      .carousel-caption {
+        height: 450px;
+        width: 100%;
+
+        .carousel-link {
+          font-weight: 700;
+          font-style: normal;
+          font-size: $extra-sm-fz;
+          text-decoration: none;
+          color: #24A3FF;
+          position: absolute;
+          top: 0;
+          left: 282px;
+        }
+
+        .link-arrow {
+          position: absolute;
+          top: 7px;
+          left: 345px;
+        }
+
+        .carousel-text {
+          margin-left: 280px;
+          text-align: left;
+          max-width: 700px;
+          font-weight: bold;
+          font-size: $md-fz;
+          background: linear-gradient(45deg, #F0145A, #EF8080);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .carousel-name {
+          font-size: $sm-fz;
+          color: #B3B3BA;
+          text-align: left;
+          position: absolute;
+          top: 222px;
+          left: 283px;
+        }
+
+        .person-position {
+          font-size: $sm-fz;
+          color: #B3B3BA;
+          text-align: left;
+          position: absolute;
+          top: 247px;
+          left: 285px;
+        }
+      }
+    }
+  }
+}
+
+@include  desktop-xl() {
+  .carousel {
+    .carousel-indicators {
+      .first-switch {
+        position: absolute;
+        top: 8px;
+        left: 300px;
+        width: 16px;
+        height: 16px;
+      }
+
+      .second-switch {
+        position: absolute;
+        top: 8px;
+        left: 340px;
+        width: 16px;
+        height: 16px;
+      }
+
+      .third-switch {
+        position: absolute;
+        top: 8px;
+        left: 380px;
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .carousel-item {
+      position: relative;
+      background: #F5F5FA;
+
+      .carousel-caption {
+        height: 450px;
+        width: 100%;
+
+        .carousel-link {
+          font-weight: 700;
+          font-style: normal;
+          font-size: $extra-sm-fz;
+          text-decoration: none;
+          color: #24A3FF;
+          position: absolute;
+          top: 0;
+          left: 316px;
+        }
+
+        .link-arrow {
+          position: absolute;
+          top: 7px;
+          left: 379px;
+        }
+
+        .carousel-text {
+          margin-left: 314px;
+          text-align: left;
+          max-width: 533px;
+          font-weight: bold;
+          font-size: $md-fz;
+          background: linear-gradient(45deg, #F0145A, #EF8080);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .carousel-name {
+          font-size: $sm-fz;
+          color: #B3B3BA;
+          text-align: left;
+          position: absolute;
+          top: 267px;
+          left: 317px;
+        }
+
+        .person-position {
+          font-size: $sm-fz;
+          color: #B3B3BA;
+          text-align: left;
+          position: absolute;
+          top: 292px;
+          left: 319px;
+        }
+      }
+    }
+  }
+}
+
+@include  lg() {
+  .carousel {
+    .carousel-indicators {
+      .first-switch {
+        position: absolute;
+        top: 8px;
+        left: 180px;
+        width: 16px;
+        height: 16px;
+      }
+
+      .second-switch {
+        position: absolute;
+        top: 8px;
+        left: 220px;
+        width: 16px;
+        height: 16px;
+      }
+
+      .third-switch {
+        position: absolute;
+        top: 8px;
+        left: 260px;
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .carousel-item {
+      position: relative;
+      background: #F5F5FA;
+      height: 275px;
+      border-radius: 12px;
+
+      .carousel-item__image{
+        display: none;
+      }
+
+      .carousel-caption {
+        height: 450px;
+        width: 100%;
+
+        .carousel-link {
+          font-weight: 700;
+          font-style: normal;
+          font-size: $extra-sm-fz;
+          text-decoration: none;
+          color: #24A3FF;
+          position: absolute;
+          top: 200px;
+          left: -95px;
+        }
+
+        .link-arrow {
+          position: absolute;
+          top: 206px;
+          left: -29px;
+        }
+
+        .carousel-text {
+          margin-left: 314px;
+          text-align: left;
+          max-width: 533px;
+          font-weight: bold;
+          font-size: 25px;
+          background: linear-gradient(45deg, #F0145A, #EF8080);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          position: absolute;
+          top: 225px;
+          left: -410px;
+        }
+
+        .carousel-name {
+          font-size: $sm-fz;
+          color: #B3B3BA;
+          text-align: left;
+          position: absolute;
+          top: 408px;
+          left: -28px;
+        }
+
+        .person-position {
+          font-size: $sm-fz;
+          color: #B3B3BA;
+          text-align: left;
+          position: absolute;
+          top: 435px;
+          left: -27px;
+        }
+      }
+
+      &::after{
+        display: inline-block;
+        content: url("./../images/first-mobile-carousel-image.svg");
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 211px;
+        left: 5px;
+      }
+    }
+  }
+}
+
+@include  md() {
+  .carousel {
+
+
+      .carousel-indicators {
+
+        &::before {
+          content: "команда";
+          display: inline-block;
+          font-weight: 700;
+          font-style: normal;
+          font-size: $extra-sm-fz;
+          text-decoration: none;
+          color: #24A3FF;
+          position: absolute;
+          top: -306px;
+          left: -57px;
+        }
+
+        &::after {
+          content: url("./../images/link-arrow.svg");
+          display: inline-block;
+          font-weight: 700;
+          font-style: normal;
+          font-size: $extra-sm-fz;
+          text-decoration: none;
+          color: #24A3FF;
+          position: absolute;
+          top: -303px;
+          left: 6px;
+        }
+
+        .first-switch {
+          position: absolute;
+          top: 8px;
+          left: 115px;
+          width: 16px;
+          height: 16px;
+        }
+
+        .second-switch {
+          position: absolute;
+          top: 8px;
+          left: 155px;
+          width: 16px;
+          height: 16px;
+        }
+
+        .third-switch {
+          position: absolute;
+          top: 8px;
+          left: 195px;
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      .carousel-item {
+        position: relative;
+        background: #F5F5FA;
+        height: 300px;
+        border-radius: 12px;
+
+        .carousel-item__image {
+          display: none;
+        }
+
+        .carousel-caption {
+          height: 450px;
+          width: 100%;
+
+          .carousel-link {
+            font-weight: 700;
+            font-style: normal;
+            font-size: $extra-sm-fz;
+            text-decoration: none;
+            color: #24A3FF;
+            position: absolute;
+            top: 200px;
+            left: -95px;
+            z-index: 2;
+          }
+
+          .link-arrow {
+            position: absolute;
+            top: 206px;
+            left: -29px;
+          }
+
+
+          .carousel-name {
+            font-size: $sm-fz;
+            color: #B3B3BA;
+            text-align: left;
+            position: absolute;
+            top: 408px;
+            left: -28px;
+          }
+
+          .person-position {
+            font-size: $sm-fz;
+            color: #B3B3BA;
+            text-align: left;
+            position: absolute;
+            top: 435px;
+            left: -27px;
+          }
+
+        }
+
+        &::after {
+          display: inline-block;
+          content: url("./../images/first-mobile-carousel-image.svg");
+          position: absolute;
+          top: 233px;
+          left: 5px;
+        }
+
+        &::before {
+          content: "Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.";
+          margin-left: 45px;
+          text-align: left;
+          max-width: 533px;
+          font-weight: bold;
+          font-size: 25px;
+          background: linear-gradient(45deg, #F0145A, #EF8080);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          position: absolute;
+          top: 40px;
+          left: -33px;
+        }
+      }
+
+  }
+}
