@@ -1495,7 +1495,6 @@ header .header-content .header-menu .mobile-menu-wrapper .mobile-menu {
   z-index: 2;
   position: absolute;
   top: 0;
-  left: 0;
 }
 .publication .shade-block .shade .shade-link-wrapper {
   text-align: center;
@@ -1515,90 +1514,227 @@ header .header-content .header-menu .mobile-menu-wrapper .mobile-menu {
 
 @media (max-width: 1400px) {
   .publication {
-    background: #F5F5FA;
-    height: 1000px;
-    padding-top: 35px;
-  }
-  .publication .link {
-    font-weight: 700;
-    font-style: normal;
-    font-size: 14px;
-    text-decoration: none;
-    color: #24A3FF;
-  }
-  .publication .link-and-text-wrapper__text {
-    font-weight: bold;
-    font-size: 42px;
-    background: linear-gradient(45deg, #F0145A, #EF8080);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    height: 1400px;
   }
   .publication .cards-wrapper {
-    margin-top: 35px;
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
   }
   .publication .cards-wrapper .card {
     width: 400px;
     height: 232px;
+    position: absolute;
+    top: 0;
+    left: 43px;
   }
   .publication .cards-wrapper .second-card {
     width: 400px;
     height: 420px;
-    margin-left: 40px;
+    position: absolute;
+    top: 0;
+    left: 550px;
   }
   .publication .cards-wrapper .third-card {
     width: 400px;
     height: 462px;
     margin-left: 40px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 440px;
+    left: 550px;
   }
   .publication .cards-wrapper .fourth-card {
     width: 400px;
     height: 416px;
     position: absolute;
-    top: -232px;
-    right: 907px;
+    top: 218px;
+    right: 727px;
   }
   .publication .cards-wrapper .fifth-card {
     position: absolute;
-    top: -40px;
-    right: 464px;
+    top: 652px;
+    right: 683px;
   }
   .publication .cards-wrapper .sixth-card {
     position: absolute;
-    top: -17px;
-    right: 20px;
+    top: 890px;
+    right: 150px;
   }
   .publication .shade-block {
     position: relative;
   }
   .publication .shade-block .shade {
-    width: 100%;
-    padding: 100px 0;
-    background: linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
-    z-index: 2;
+    position: absolute;
+    top: 884px;
+  }
+}
+@media (max-width: 1200px) {
+  .publication {
+    height: 1400px;
+  }
+  .publication .cards-wrapper {
+    position: relative;
+  }
+  .publication .cards-wrapper .card {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 43px;
   }
-  .publication .shade-block .shade .shade-link-wrapper {
-    text-align: center;
+  .publication .cards-wrapper .second-card {
+    position: absolute;
+    top: 0;
+    left: 468px;
   }
-  .publication .shade-block .shade .shade-link-wrapper .shade-link-wrapper__link {
-    text-decoration: none;
-    border-radius: 12px;
-    padding: 15px 60px;
-    background: #24A3FF;
-    color: white;
-    z-index: 1;
+  .publication .cards-wrapper .third-card {
+    margin-left: 40px;
+    position: absolute;
+    top: 440px;
+    left: 469px;
   }
-  .publication .shade-block .shade .shade-link-wrapper .shade-link-wrapper__link:hover {
-    background: #41cbe0;
-    transition: 0.3s;
+  .publication .cards-wrapper .fourth-card {
+    position: absolute;
+    top: 218px;
+    right: 727px;
+  }
+  .publication .cards-wrapper .fifth-card {
+    position: absolute;
+    top: 652px;
+    right: 505px;
+  }
+  .publication .cards-wrapper .sixth-card {
+    position: absolute;
+    top: 890px;
+    right: 50px;
+  }
+  .publication .shade-block {
+    position: relative;
+  }
+  .publication .shade-block .shade {
+    position: absolute;
+    top: 884px;
+  }
+}
+@media (max-width: 992px) {
+  .publication {
+    height: 2750px;
+  }
+  .publication .cards-wrapper {
+    position: relative;
+  }
+  .publication .cards-wrapper .card {
+    position: absolute;
+    top: 0;
+    left: 163px;
+  }
+  .publication .cards-wrapper .second-card {
+    position: absolute;
+    top: 679px;
+    left: 127px;
+  }
+  .publication .cards-wrapper .third-card {
+    margin-left: 40px;
+    position: absolute;
+    top: 1113px;
+    left: 127px;
+  }
+  .publication .cards-wrapper .fourth-card {
+    position: absolute;
+    top: 218px;
+    left: 164px;
+  }
+  .publication .cards-wrapper .fifth-card {
+    position: absolute;
+    top: 1556px;
+    right: 145px;
+  }
+  .publication .cards-wrapper .sixth-card {
+    position: absolute;
+    top: 1805px;
+    right: 145px;
+  }
+  .publication .shade-block {
+    position: relative;
+  }
+  .publication .shade-block .shade {
+    position: absolute;
+    top: 1808px;
+  }
+}
+@media (max-width: 768px) {
+  .publication {
+    height: 1246px;
+  }
+  .publication .cards-wrapper {
+    position: relative;
+  }
+  .publication .cards-wrapper .card {
+    position: absolute;
+    top: 0;
+    left: 83px;
+  }
+  .publication .cards-wrapper .second-card {
+    position: absolute;
+    top: 241px;
+    left: 44px;
+  }
+  .publication .cards-wrapper .third-card {
+    display: none;
+  }
+  .publication .cards-wrapper .fourth-card {
+    position: absolute;
+    top: 634px;
+    left: 85px;
+  }
+  .publication .cards-wrapper .fifth-card {
+    display: none;
+  }
+  .publication .cards-wrapper .sixth-card {
+    display: none;
+  }
+  .publication .shade-block {
+    position: relative;
+  }
+  .publication .shade-block .shade {
+    position: absolute;
+    top: 826px;
+  }
+}
+@media (max-width: 576px) {
+  .publication {
+    height: 1246px;
+  }
+  .publication .cards-wrapper {
+    position: relative;
+  }
+  .publication .cards-wrapper .card {
+    position: absolute;
+    top: 0;
+    left: 33px;
+  }
+  .publication .cards-wrapper .second-card {
+    position: absolute;
+    top: 241px;
+    left: -7px;
+  }
+  .publication .cards-wrapper .third-card {
+    display: none;
+  }
+  .publication .cards-wrapper .fourth-card {
+    position: absolute;
+    top: 634px;
+    left: 33px;
+  }
+  .publication .cards-wrapper .fifth-card {
+    display: none;
+  }
+  .publication .cards-wrapper .sixth-card {
+    display: none;
+  }
+  .publication .shade-block {
+    position: relative;
+  }
+  .publication .shade-block .shade {
+    position: absolute;
+    top: 826px;
+    max-width: 420px;
   }
 }
 
