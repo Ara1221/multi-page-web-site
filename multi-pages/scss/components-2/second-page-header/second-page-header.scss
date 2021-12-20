@@ -1,6 +1,6 @@
-header {
- @include headerStyle(url("./../images/banner-and-header-bg.png"));
-  padding: 25px 0;
+.second-page-header{
+  @include headerStyle (none);
+
   .header-content {
     @extend %banner-and-header-bg;
     padding-top: 40px;
@@ -10,17 +10,25 @@ header {
       justify-content: space-between;
       align-items: center;
 
+      .header-menu__logo-wrapper{
+        .header-menu__logo{
+          width: 307px;
+          height: 63px;
+        }
+      }
+
       .menu-wrapper {
         display: flex;
         .menu-wrapper__link-wrapper{
 
           .menu-wrapper__link{
-            color: white;
+            color: $secondPage-headerColor;
             text-decoration: none;
             padding: 5px 8px;
             border-radius: 8px;
             &:hover{
               background-color: $tabs_font_and-link-color;
+              color: white;
               transition: .2s;
             }
           }
@@ -29,7 +37,13 @@ header {
 
         .menu-wrapper__text{
           padding-left: 15px;
+          color: $secondPage-headerColor;
         }
+
+        .menu-wrapper__number{
+          color: $secondPage-headerColor;
+        }
+
         .menu-wrapper__dot{
           padding: 0 5px 0 15px;
         }
@@ -47,7 +61,7 @@ header {
           }
 
           .tabs-wrapper__tab {
-            @include tabs-style(none, white);
+            @include tabs-style(none, $secondPage-headerColor);
           }
         }
       }
@@ -55,9 +69,10 @@ header {
       .mobile-menu-wrapper{
         text-align: right;
         .mobile-menu{
-         display: none;
+          display: none;
         }
       }
+
     }
   }
 }

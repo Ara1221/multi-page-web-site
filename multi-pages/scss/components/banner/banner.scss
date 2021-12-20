@@ -1,5 +1,5 @@
 .banner{
- @extend %banner-and-header-bg;
+ @include headerStyle(url("./../images/banner-and-header-bg.png"));
   height: 950px;
   z-index: -2;
  .banner-images-wrapper {

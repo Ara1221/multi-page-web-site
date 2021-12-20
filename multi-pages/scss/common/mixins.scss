@@ -1,3 +1,8 @@
+@mixin headerStyle ($bgImage){
+  @extend %banner-and-header-bg;
+  background-image:$bgImage;
+}
+
 @mixin tabs-style($textDecoration, $color){
   @extend %tabsStyle;
   text-decoration: $textDecoration;

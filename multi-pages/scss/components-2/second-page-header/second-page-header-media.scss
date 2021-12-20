@@ -1,26 +1,21 @@
 @include  desktop-xxl() {
-  .header-content {
-    .header-menu {
-      .header-menu__logo-wrapper {
-        .header-menu__logo {
-          width: 155px;
-          height: 63px;
-        }
-      }
-
-      nav {
-        .menu-wrapper {
-          .menu-wrapper__link-wrapper {
-            &:nth-child(3) {
-              padding-right: 20px;
+  .second-page-header {
+    .header-content {
+      .header-menu {
+        nav {
+          .menu-wrapper {
+            .menu-wrapper__link-wrapper {
+              &:nth-child(3) {
+                padding-right: 20px;
+              }
             }
-          }
 
-          .mobile-menu-wrapper {
-            display: none;
+            .mobile-menu-wrapper {
+              display: none;
 
-            .mobile-menu {
-              display: inline-block;
+              .mobile-menu {
+                display: inline-block;
+              }
             }
           }
         }
@@ -30,12 +25,14 @@
 }
 
 @include desktop-xl() {
+  .second-page-header {
     .header-content {
       .header-menu {
-        .header-menu__logo{
+        .header-menu__logo {
           width: 307px;
           height: 63px;
         }
+
         nav {
           .menu-wrapper {
             .menu-wrapper__link-wrapper {
@@ -54,9 +51,10 @@
       }
     }
   }
+}
 
 @include lg() {
-  header {
+  .second-page-header {
     .header-content {
       .header-menu {
         nav {
@@ -107,10 +105,11 @@
       }
     }
   }
-  }
+}
+
 
 @include md() {
-  header {
+  .second-page-header {
     .header-content {
       .header-menu {
         nav {
@@ -165,9 +164,11 @@
       }
     }
   }
-  }
+}
+
 
 @include sm() {
+  .second-page-header {
     .header-content {
       .header-menu {
         nav {
@@ -224,3 +225,4 @@
       }
     }
   }
+}
