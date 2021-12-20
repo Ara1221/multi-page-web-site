@@ -35,6 +35,13 @@
 }
 
 
+%gradient{
+  background: linear-gradient(45deg, #EF8080, #F0145A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 %successful-cases-blocks-style{
   background: $successful-cases-bg;
   .successful-cases__text{

@@ -1,0 +1,30 @@
+.team-banner{
+  margin-top: 100px;
+
+  .team-content-wrapper{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+    .text-wrapper__text{
+      font-size: $secondPage-fz;
+      max-width: 655px;
+
+      &:nth-child(2){
+        margin-top: 30px;
+      }
+
+      &:nth-child(3){
+        margin-top: 30px;
+      }
+    }
+
+    .quality {
+      @extend %gradient;
+      font-size: $lg-fz;
+      max-width: 415px;
+      font-weight: bold;
+      margin-left: 40px;
+    }
+  }
+}

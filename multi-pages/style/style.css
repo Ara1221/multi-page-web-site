@@ -31,6 +31,12 @@
   border-color: #F0145A;
 }
 
+.team-banner .team-content-wrapper .quality, .results .results-content-wrapper .results-title {
+  background: linear-gradient(45deg, #EF8080, #F0145A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .successful-cases .wrapper .successful-cases-Clikky-wrapper, .successful-cases .wrapper .successful-cases-adtelligent-wrapper, .successful-cases .wrapper .successful-cases-3DLOOK-wrapper, .successful-cases .wrapper .successful-cases-tapgerine-wrapper, .successful-cases .wrapper .successful-cases-WannaBiz-wrapper, .successful-cases .wrapper .successful-cases-hillel-wrapper, .successful-cases .wrapper .successful-cases-text-wrapper {
   background: #F5F5FA;
 }
@@ -2039,6 +2045,64 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   .second-page-header .header-content .header-menu nav .mobile-menu-wrapper .mobile-menu {
     display: inline-block;
   }
+}
+.results {
+  margin-top: 90px;
+}
+.results .results-content-wrapper .results-title {
+  font-size: 42px;
+  font-weight: bold;
+  max-width: 600px;
+}
+.results .results-content-wrapper .results-text {
+  font-size: 21px;
+  max-width: 690px;
+  margin-top: 30px;
+}
+.results .results-content-wrapper .results-hr {
+  border-left: 1px solid;
+  height: 330px;
+  width: 4px;
+  margin-left: 60px;
+}
+.results .results-content-wrapper .result-value .result-img-wrapper {
+  margin: 10px 0 0 15px;
+}
+.results .results-content-wrapper .result-value .result-img-wrapper:nth-child(3) {
+  margin: 55px 0 0 15px;
+}
+.results .results-content-wrapper .result-value .result-img-wrapper:nth-child(5) {
+  margin: 47px 0 0 15px;
+}
+.results .results-content-wrapper .result-value .result-subscription {
+  font-size: 18px;
+  margin-left: 21px;
+  max-width: 345px;
+}
+
+.team-banner {
+  margin-top: 100px;
+}
+.team-banner .team-content-wrapper {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.team-banner .team-content-wrapper .text-wrapper__text {
+  font-size: 21px;
+  max-width: 655px;
+}
+.team-banner .team-content-wrapper .text-wrapper__text:nth-child(2) {
+  margin-top: 30px;
+}
+.team-banner .team-content-wrapper .text-wrapper__text:nth-child(3) {
+  margin-top: 30px;
+}
+.team-banner .team-content-wrapper .quality {
+  font-size: 42px;
+  max-width: 415px;
+  font-weight: bold;
+  margin-left: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
