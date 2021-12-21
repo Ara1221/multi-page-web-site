@@ -1,0 +1,34 @@
+.achievements{
+  padding-top: 30px;
+  background: #F5F5FA;
+
+  .achievements-title{
+    font-size: $extra-sm-fz;
+    font-weight: bold;
+  }
+
+  #second-page-carousel {
+    height: 260px;
+    position: relative;
+
+    .first-switch{
+      position: absolute;
+      top: -15px;
+    }
+
+    .second-switch{
+      position: absolute;
+      top: -15px;
+    }
+
+    .third-switch{
+      position: absolute;
+      top: -15px;
+    }
+
+    .carousel-inner {
+      display: flex;
+      margin-left: 50px;
+    }
+  }
+}

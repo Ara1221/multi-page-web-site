@@ -2082,6 +2082,7 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
 
 .team-banner {
   margin-top: 100px;
+  padding-bottom: 75px;
 }
 .team-banner .team-content-wrapper {
   margin-top: 80px;
@@ -2103,6 +2104,35 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   max-width: 415px;
   font-weight: bold;
   margin-left: 40px;
+}
+
+.achievements {
+  padding-top: 30px;
+  background: #F5F5FA;
+}
+.achievements .achievements-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.achievements #second-page-carousel {
+  height: 260px;
+  position: relative;
+}
+.achievements #second-page-carousel .first-switch {
+  position: absolute;
+  top: -15px;
+}
+.achievements #second-page-carousel .second-switch {
+  position: absolute;
+  top: -15px;
+}
+.achievements #second-page-carousel .third-switch {
+  position: absolute;
+  top: -15px;
+}
+.achievements #second-page-carousel .carousel-inner {
+  display: flex;
+  margin-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
