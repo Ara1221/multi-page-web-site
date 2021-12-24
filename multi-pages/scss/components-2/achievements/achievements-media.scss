@@ -1,0 +1,243 @@
+@include  desktop-xxl() {
+  .achievements {
+    padding-top: 30px;
+    background: #F5F5FA;
+
+    .achievements-title {
+      font-size: $extra-sm-fz;
+      font-weight: bold;
+    }
+
+    #second-page-carousel {
+      height: 360px;
+      position: relative;
+
+      .first-switch {
+        position: absolute;
+        top: -15px;
+        left: 345px;
+      }
+
+      .second-switch {
+        position: absolute;
+        top: -15px;
+        left: 385px;
+      }
+
+      .third-switch {
+        position: absolute;
+        top: -15px;
+        left: 426px;
+      }
+
+      .carousel-inner {
+        .carousel-item {
+          display: flex;
+          flex-wrap: wrap;
+
+          .image-wrapper{
+            width: 50%;
+            text-align: center;
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include desktop-xl() {
+    .achievements {
+      #second-page-carousel {
+        height: 360px;
+
+        .first-switch {
+          position: absolute;
+          top: -15px;
+          left: 280px;
+        }
+
+        .second-switch {
+          position: absolute;
+          top: -15px;
+          left: 320px;
+        }
+
+        .third-switch {
+          position: absolute;
+          top: -15px;
+          left: 360px;
+        }
+
+        .carousel-inner {
+          .carousel-item {
+            display: flex;
+            flex-wrap: wrap;
+
+            .image-wrapper{
+              width: 50%;
+              text-align: center;
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+@include lg() {
+    .achievements {
+      #second-page-carousel {
+        height: 360px;
+
+        .first-switch {
+          position: absolute;
+          top: -15px;
+          left: 195px;
+        }
+
+        .second-switch {
+          position: absolute;
+          top: -15px;
+          left: 236px;
+        }
+
+        .third-switch {
+          position: absolute;
+          top: -15px;
+          left: 278px;
+        }
+
+        .carousel-inner {
+          .carousel-item {
+            display: flex;
+            flex-wrap: wrap;
+
+            .image-wrapper{
+              width: 50%;
+              text-align: center;
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+@include md() {
+    .achievements {
+      #second-page-carousel {
+        height: 360px;
+
+        .carousel-indicators{
+          &::after{
+            display: none;
+          }
+
+          &::before{
+            display: none;
+          }
+        }
+
+        .first-switch {
+          position: absolute;
+          top: -15px;
+          left: 135px;
+        }
+
+        .second-switch {
+          position: absolute;
+          top: -15px;
+          left: 172px;
+        }
+
+        .third-switch {
+          position: absolute;
+          top: -15px;
+          left: 212px;
+        }
+
+        .carousel-inner {
+          .carousel-item {
+            display: flex;
+            flex-wrap: wrap;
+
+            &::after{
+              display: none;
+            }
+
+            &::before{
+              display: none;
+            }
+
+            .image-wrapper{
+              width: 50%;
+
+              .image-wrapper__img{
+                width: 260px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+@include sm() {
+  .achievements {
+    #second-page-carousel {
+      height: 360px;
+      .carousel-indicators{
+
+        &::after{
+          display: none;
+        }
+
+        &::before{
+          display: none;
+        }
+      }
+
+      .first-switch {
+        position: absolute;
+        top: -15px;
+        left: 135px;
+      }
+
+      .second-switch {
+        position: absolute;
+        top: -15px;
+        left: 172px;
+      }
+
+      .third-switch {
+        position: absolute;
+        top: -15px;
+        left: 212px;
+      }
+
+      .carousel-inner {
+        .carousel-item {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          &::after{
+            display: none;
+          }
+
+          &::before{
+            display: none;
+          }
+
+          .image-wrapper{
+            .image-wrapper__img{
+              width: 170px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,9 @@
 .results{
   margin-top: 90px;
   .results-content-wrapper {
+    display: flex;
+    justify-content: center;
+
     .results-title {
      @extend %gradient;
       font-size: $lg-fz;
@@ -19,6 +22,10 @@
       height: 330px;
       width: 4px;
       margin-left: 60px;
+    }
+
+    .results-hr-horizontal{
+      display: none;
     }
 
     .result-value {

@@ -20,10 +20,8 @@
       .menu-wrapper {
         display: flex;
         .menu-wrapper__link-wrapper{
-
           .menu-wrapper__link{
             color: $secondPage-headerColor;
-            text-decoration: none;
             padding: 5px 8px;
             border-radius: 8px;
             &:hover{
@@ -61,7 +59,7 @@
           }
 
           .tabs-wrapper__tab {
-            @include tabs-style(none, $secondPage-headerColor);
+            @include tabs-style(none, $text-and-link-color);
           }
         }
       }

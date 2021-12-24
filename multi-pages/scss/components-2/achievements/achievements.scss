@@ -27,8 +27,18 @@
     }
 
     .carousel-inner {
-      display: flex;
-      margin-left: 50px;
+      .carousel-item{
+        display: flex;
+        justify-content:  space-around;
+      }
+    }
+    .carousel-item {
+      display: none;
+
+      &::after {
+        display: none;
+      }
+
     }
   }
 }

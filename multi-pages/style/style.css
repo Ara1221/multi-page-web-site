@@ -1533,6 +1533,12 @@ header .header-content .header-menu .mobile-menu-wrapper .mobile-menu {
 .btn-toolbar {
   background: #F5F5FA;
 }
+.btn-toolbar .btn {
+  border-radius: 10px 0 0 10px;
+}
+.btn-toolbar .my-border-radius {
+  border-radius: 0 10px 10px 0;
+}
 
 @media (max-width: 1400px) {
   .publication {
@@ -1884,7 +1890,6 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
 }
 .second-page-header .header-content .header-menu .menu-wrapper .menu-wrapper__link-wrapper .menu-wrapper__link {
   color: #B3B3BA;
-  text-decoration: none;
   padding: 5px 8px;
   border-radius: 8px;
 }
@@ -1914,7 +1919,7 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
 }
 .second-page-header .header-content .header-menu .tabs-wrapper .tabs-wrapper__tab-wrapper .tabs-wrapper__tab {
   text-decoration: none;
-  color: #B3B3BA;
+  color: #24A3FF;
 }
 .second-page-header .header-content .header-menu .mobile-menu-wrapper {
   text-align: right;
@@ -2049,6 +2054,10 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
 .results {
   margin-top: 90px;
 }
+.results .results-content-wrapper {
+  display: flex;
+  justify-content: center;
+}
 .results .results-content-wrapper .results-title {
   font-size: 42px;
   font-weight: bold;
@@ -2065,6 +2074,9 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   width: 4px;
   margin-left: 60px;
 }
+.results .results-content-wrapper .results-hr-horizontal {
+  display: none;
+}
 .results .results-content-wrapper .result-value .result-img-wrapper {
   margin: 10px 0 0 15px;
 }
@@ -2080,9 +2092,106 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   max-width: 345px;
 }
 
+@media (max-width: 1200px) {
+  .results {
+    margin-top: 90px;
+  }
+  .results .results-content-wrapper .results-text {
+    font-size: 21px;
+    max-width: 690px;
+    margin-top: 30px;
+  }
+  .results .results-content-wrapper .results-hr {
+    border-left: 1px solid;
+    height: 330px;
+    width: 4px;
+    margin-left: 40px;
+  }
+  .results .results-content-wrapper .results-hr-horizontal {
+    display: none;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper {
+    margin: 10px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper:nth-child(3) {
+    margin: 55px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper:nth-child(5) {
+    margin: 47px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-subscription {
+    font-size: 18px;
+    margin-left: 21px;
+    max-width: 345px;
+  }
+}
+@media (max-width: 992px) {
+  .results {
+    margin-top: 90px;
+  }
+  .results .results-content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .results .results-content-wrapper .results-hr {
+    display: none;
+  }
+  .results .results-content-wrapper .results-hr-horizontal {
+    display: block;
+    height: 4px;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper {
+    margin: 10px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper:nth-child(3) {
+    margin: 55px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper:nth-child(5) {
+    margin: 47px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-subscription {
+    font-size: 18px;
+    margin-left: 21px;
+    max-width: 345px;
+  }
+}
+@media (max-width: 576px) {
+  .results {
+    margin-top: 90px;
+  }
+  .results .results-content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .results .results-content-wrapper .results-hr {
+    display: none;
+  }
+  .results .results-content-wrapper .results-hr-horizontal {
+    display: block;
+    height: 4px;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper {
+    margin: 10px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper:nth-child(3) {
+    margin: 55px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-img-wrapper:nth-child(5) {
+    margin: 47px 0 0 15px;
+  }
+  .results .results-content-wrapper .result-value .result-subscription {
+    font-size: 18px;
+    margin-left: 21px;
+    max-width: 345px;
+  }
+}
 .team-banner {
   margin-top: 100px;
   padding-bottom: 75px;
+}
+.team-banner .banner-team-wrapper .banner-team-wrapper__img {
+  width: 1440px;
+  height: 438px;
 }
 .team-banner .team-content-wrapper {
   margin-top: 80px;
@@ -2106,6 +2215,79 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   margin-left: 40px;
 }
 
+@media (max-width: 1400px) {
+  .team-banner {
+    margin-top: 100px;
+    padding-bottom: 75px;
+  }
+  .team-banner .banner-team-wrapper .banner-team-wrapper__img {
+    width: 1070px;
+    height: 438px;
+  }
+  .team-banner .team-content-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .team-banner .team-content-wrapper .text-wrapper__text {
+    font-size: 21px;
+    max-width: 655px;
+  }
+  .team-banner .team-content-wrapper .text-wrapper__text:nth-child(2) {
+    margin-top: 30px;
+  }
+  .team-banner .team-content-wrapper .text-wrapper__text:nth-child(3) {
+    margin-top: 30px;
+  }
+  .team-banner .team-content-wrapper .quality {
+    font-size: 42px;
+    max-width: 415px;
+    font-weight: bold;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .team-banner .banner-team-wrapper .banner-team-wrapper__img {
+    width: 950px;
+    height: 438px;
+  }
+  .team-banner .team-content-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .team-banner .team-content-wrapper .quality {
+    font-size: 42px;
+    max-width: 415px;
+    font-weight: bold;
+    margin-left: 0;
+  }
+}
+@media (max-width: 992px) {
+  .team-banner .banner-team-wrapper .banner-team-wrapper__img {
+    width: 770px;
+    height: 360px;
+  }
+  .team-banner .team-content-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 768px) {
+  .team-banner .banner-team-wrapper .banner-team-wrapper__img {
+    width: 565px;
+    height: 290px;
+  }
+  .team-banner .team-content-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
 .achievements {
   padding-top: 30px;
   background: #F5F5FA;
@@ -2130,9 +2312,195 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   position: absolute;
   top: -15px;
 }
-.achievements #second-page-carousel .carousel-inner {
+.achievements #second-page-carousel .carousel-inner .carousel-item {
   display: flex;
-  margin-left: 50px;
+  justify-content: space-around;
+}
+.achievements #second-page-carousel .carousel-item {
+  display: none;
+}
+.achievements #second-page-carousel .carousel-item::after {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .achievements {
+    padding-top: 30px;
+    background: #F5F5FA;
+  }
+  .achievements .achievements-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .achievements #second-page-carousel {
+    height: 360px;
+    position: relative;
+  }
+  .achievements #second-page-carousel .first-switch {
+    position: absolute;
+    top: -15px;
+    left: 345px;
+  }
+  .achievements #second-page-carousel .second-switch {
+    position: absolute;
+    top: -15px;
+    left: 385px;
+  }
+  .achievements #second-page-carousel .third-switch {
+    position: absolute;
+    top: -15px;
+    left: 426px;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item .image-wrapper {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .achievements #second-page-carousel {
+    height: 360px;
+  }
+  .achievements #second-page-carousel .first-switch {
+    position: absolute;
+    top: -15px;
+    left: 280px;
+  }
+  .achievements #second-page-carousel .second-switch {
+    position: absolute;
+    top: -15px;
+    left: 320px;
+  }
+  .achievements #second-page-carousel .third-switch {
+    position: absolute;
+    top: -15px;
+    left: 360px;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item .image-wrapper {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .achievements #second-page-carousel {
+    height: 360px;
+  }
+  .achievements #second-page-carousel .first-switch {
+    position: absolute;
+    top: -15px;
+    left: 195px;
+  }
+  .achievements #second-page-carousel .second-switch {
+    position: absolute;
+    top: -15px;
+    left: 236px;
+  }
+  .achievements #second-page-carousel .third-switch {
+    position: absolute;
+    top: -15px;
+    left: 278px;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item .image-wrapper {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .achievements #second-page-carousel {
+    height: 360px;
+  }
+  .achievements #second-page-carousel .carousel-indicators::after {
+    display: none;
+  }
+  .achievements #second-page-carousel .carousel-indicators::before {
+    display: none;
+  }
+  .achievements #second-page-carousel .first-switch {
+    position: absolute;
+    top: -15px;
+    left: 135px;
+  }
+  .achievements #second-page-carousel .second-switch {
+    position: absolute;
+    top: -15px;
+    left: 172px;
+  }
+  .achievements #second-page-carousel .third-switch {
+    position: absolute;
+    top: -15px;
+    left: 212px;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item::after {
+    display: none;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item::before {
+    display: none;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item .image-wrapper {
+    width: 50%;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item .image-wrapper .image-wrapper__img {
+    width: 260px;
+  }
+}
+@media (max-width: 576px) {
+  .achievements #second-page-carousel {
+    height: 360px;
+  }
+  .achievements #second-page-carousel .carousel-indicators::after {
+    display: none;
+  }
+  .achievements #second-page-carousel .carousel-indicators::before {
+    display: none;
+  }
+  .achievements #second-page-carousel .first-switch {
+    position: absolute;
+    top: -15px;
+    left: 135px;
+  }
+  .achievements #second-page-carousel .second-switch {
+    position: absolute;
+    top: -15px;
+    left: 172px;
+  }
+  .achievements #second-page-carousel .third-switch {
+    position: absolute;
+    top: -15px;
+    left: 212px;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item::after {
+    display: none;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item::before {
+    display: none;
+  }
+  .achievements #second-page-carousel .carousel-inner .carousel-item .image-wrapper .image-wrapper__img {
+    width: 170px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

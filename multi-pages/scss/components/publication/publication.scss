@@ -93,4 +93,12 @@
 
 .btn-toolbar{
   background: $publicationBg;
+
+  .btn{
+    border-radius: 10px 0 0 10px;
+  }
+
+  .my-border-radius{
+    border-radius: 0 10px 10px 0;
+  }
 }

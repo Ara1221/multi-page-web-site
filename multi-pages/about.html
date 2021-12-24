@@ -125,7 +125,7 @@
             <div class="container container-xxl container-xl container-lg container-md container-sm container-fluid">
                 <div class="row">
 
-                    <div class="results-content-wrapper d-flex justify-content-center">
+                    <div class="results-content-wrapper">
 
                         <div>
                             <p class="results-title">Перевертаємо уявлення про юридичні послуги.</p>
@@ -141,6 +141,7 @@
                         </div>
 
                         <hr class="results-hr">
+                        <hr class="results-hr-horizontal">
 
                         <div>
                             <div class="result-value">
@@ -167,7 +168,6 @@
                 </div>
             </div>
         </div>
-
 
 
 
@@ -212,16 +212,28 @@
 
                     <div id="second-page-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
-                            <img src="./images/carousel-switches.svg" alt="here" class="first-switch active type=button"   data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1">
-                            <img src="./images/carousel-switches.svg" alt="here" class="second-switch active type=button"   data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
-                            <img src="./images/carousel-switches.svg" alt="here" class="third-switch active type=button"   data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                            <img src="./images/carousel-switches.svg" alt="here" class="first-switch active type=button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">
+                            <img src="./images/carousel-switches.svg" alt="here" class="second-switch  type=button"   data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                            <img src="./images/carousel-switches.svg" alt="here" class="third-switch  type=button"   data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
                         </div>
+
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./images/legal.jpg" class="carousel-item__img" alt="...">
-                                <img src="./images/law.jpg" class="carousel-item__img" alt="...">
-                                <img src="./images/leader-of-market.jpg" class="carousel-item__img" alt="...">
-                                <img src="./images/ulf.jpg" class="carousel-item__img" alt="...">
+                                <div class="image-wrapper">
+                                    <img src="./images/legal.jpg" class="image-wrapper__img" alt="...">
+                                </div>
+
+                                <div class="image-wrapper">
+                                    <img src="./images/law.jpg" class="image-wrapper__img" alt="...">
+                                </div>
+
+                                <div class="image-wrapper">
+                                    <img src="./images/leader-of-market.jpg" class="image-wrapper__img" alt="...">
+                                 </div>
+
+                                <div class="image-wrapper">
+                                    <img src="./images/ulf.jpg" class="image-wrapper__img" alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -231,6 +243,12 @@
 
     </main>
 
+    <div class="btn-toolbar d-flex justify-content-center pt-5" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+            <a target="_blank" href="./index.html"><button type="button" class="btn btn-primary">1</button></a>
+            <a target="_blank" href="./about.html"><button type="button" class="btn my-border-radius btn-primary">2</button></a>
+        </div>
+    </div>
 
     <footer>
 
