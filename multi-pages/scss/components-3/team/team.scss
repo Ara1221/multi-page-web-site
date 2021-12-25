@@ -1,0 +1,27 @@
+.team{
+  padding-top: 70px;
+  .responsibility{
+    @extend %gradient;
+    font-size: $lg-fz;
+    max-width: 874px;
+    margin: 0 auto;
+  }
+
+  .img-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .name{
+      font-size: $secondPage-fz;
+    }
+
+    .name-description{
+      font-size: $card-text-fz;
+      color: $secondPage-headerColor;
+    }
+  }
+}
+
+.my-margin{
+  margin-top: 50px;
+}

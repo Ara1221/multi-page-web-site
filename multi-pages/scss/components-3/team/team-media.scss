@@ -1,0 +1,30 @@
+@include  desktop-xxl() {
+  .team{
+    padding-top: 70px;
+    .responsibility{
+      @extend %gradient;
+      font-size: $lg-fz;
+      max-width: 874px;
+      margin: 0 auto;
+    }
+
+    .img-info-wrapper {
+      display: flex;
+      justify-content: inherit;
+      padding-left: 0;
+
+      .name{
+        font-size: $secondPage-fz;
+      }
+
+      .name-description{
+        font-size: $card-text-fz;
+        color: $secondPage-headerColor;
+      }
+
+      .team-arrow{
+
+      }
+    }
+  }
+}
