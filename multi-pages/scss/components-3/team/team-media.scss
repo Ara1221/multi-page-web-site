@@ -11,7 +11,6 @@
     .img-info-wrapper {
       display: flex;
       justify-content: inherit;
-      padding-left: 0;
 
       .name{
         font-size: $secondPage-fz;
@@ -23,8 +22,76 @@
       }
 
       .team-arrow{
-
+        margin-left: 20px;
       }
+    }
+  }
+}
+
+@include  desktop-xl() {
+  .team{
+    padding-top: 70px;
+
+    .img-info-wrapper {
+      display: flex;
+      justify-content: inherit;
+    }
+  }
+}
+
+@include  lg() {
+  .team{
+    padding-top: 70px;
+
+    .img-wrapper{
+      text-align: center;
+    }
+
+    .img-info-wrapper {
+      display: flex;
+      justify-content: inherit;
+      padding-left: 146px;
+    }
+  }
+}
+
+@include  md() {
+  .team{
+    padding-top: 70px;
+
+    .img-wrapper{
+      text-align: center;
+    }
+
+    .img-info-wrapper {
+      display: flex;
+      justify-content: inherit;
+      padding-left: 55px;
+    }
+  }
+}
+
+@include  sm() {
+  .team{
+    padding-top: 70px;
+    .team-info-wrapper {
+      display: flex;
+      align-items: center;
+      .img-wrapper {
+        text-align: inherit;
+
+        .team-img {
+          display: none;
+        }
+
+        .mini-img {
+          display: inline-block;
+        }
+      }
+    }
+
+    .img-info-wrapper {
+      display: flex;
     }
   }
 }
