@@ -92,7 +92,7 @@
 }
 
 .btn-toolbar{
-  background: $publicationBg;
+  @include pagination($publicationBg);
 
   .btn{
     border-radius: 10px 0 0 10px;

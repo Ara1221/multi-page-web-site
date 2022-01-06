@@ -31,7 +31,7 @@
   border-color: #F0145A;
 }
 
-.team .responsibility, .team-banner .team-content-wrapper .quality, .results .results-content-wrapper .results-title {
+.team-member .team-content-wrapper .team-member-text .name, .team .responsibility, .team-banner .team-content-wrapper .quality, .results .results-content-wrapper .results-title {
   background: linear-gradient(45deg, #EF8080, #F0145A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2528,6 +2528,10 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   color: #B3B3BA;
 }
 
+.btn-toolbar {
+  background: #ffff;
+}
+
 .my-margin {
   margin-top: 50px;
 }
@@ -2610,6 +2614,120 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   }
   .team .img-info-wrapper {
     display: flex;
+  }
+}
+.team-member .team-content-wrapper {
+  display: flex;
+}
+.team-member .team-content-wrapper .team-member-text {
+  margin-left: 30px;
+  padding-top: 20px;
+}
+.team-member .team-content-wrapper .team-member-text .name {
+  font-weight: 700;
+  font-size: 42px;
+}
+.team-member .team-content-wrapper .team-member-text .name-description {
+  font-size: 16px;
+}
+.team-member .team-content-wrapper .team-member-text .team-member-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #24A3FF;
+}
+.team-member .team-content-wrapper .team-member-text .dot {
+  padding: 0 5px;
+}
+.team-member .team-content-wrapper .team-member-text .team-member-hr {
+  height: 4px;
+}
+.team-member .team-content-wrapper .team-member-text .team-member-text__title {
+  font-size: 21px;
+  color: #323264;
+}
+.team-member .team-content-wrapper .team-member-text .team-member-text__text {
+  max-width: 605px;
+  font-size: 18px;
+}
+
+.btn-toolbar {
+  background: #fff;
+}
+
+.my-margin {
+  margin-top: 100px;
+}
+
+@media (max-width: 1200px) {
+  .team-member .team-content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-member .team-content-wrapper .team-member-text {
+    margin-left: 0;
+    padding-top: 20px;
+  }
+  .team-member .team-content-wrapper .team-member-text .name {
+    font-weight: 700;
+    font-size: 42px;
+  }
+  .team-member .team-content-wrapper .team-member-text .name-description {
+    font-size: 16px;
+  }
+  .team-member .team-content-wrapper .team-member-text .team-member-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #24A3FF;
+  }
+  .team-member .team-content-wrapper .team-member-text .dot {
+    padding: 0 5px;
+  }
+  .team-member .team-content-wrapper .team-member-text .team-member-hr {
+    height: 4px;
+  }
+  .team-member .team-content-wrapper .team-member-text .team-member-text__title {
+    font-size: 21px;
+    color: #323264;
+  }
+  .team-member .team-content-wrapper .team-member-text .team-member-text__text {
+    max-width: 605px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .team-member .team-content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-member .team-content-wrapper .team-member-text {
+    margin-left: 0;
+    padding-top: 20px;
+  }
+  .team-member .team-content-wrapper .team-member-text .name {
+    font-weight: 700;
+    font-size: 42px;
+  }
+  .team-member .team-content-wrapper .team-member-text .name-description {
+    font-size: 16px;
+  }
+  .team-member .team-content-wrapper .team-member-text .team-member-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #24A3FF;
+  }
+  .team-member .team-content-wrapper .team-member-text .dot {
+    padding: 0 5px;
+  }
+  .team-member .team-content-wrapper .team-member-text .team-member-hr {
+    height: 4px;
+  }
+  .team-member .team-content-wrapper .team-member-text .team-member-text__title {
+    font-size: 21px;
+    color: #323264;
+  }
+  .team-member .team-content-wrapper .team-member-text .team-member-text__text {
+    max-width: 605px;
+    font-size: 18px;
   }
 }
 

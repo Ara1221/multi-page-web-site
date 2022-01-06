@@ -1,0 +1,52 @@
+.team-member{
+  .team-content-wrapper {
+    display: flex;
+
+      .team-member-text {
+        margin-left: 30px;
+        padding-top: 20px;
+
+        .name {
+          @extend %gradient;
+          font-weight: 700;
+          font-size: $lg-fz;
+        }
+
+        .name-description {
+          font-size: $card-text-fz;
+        }
+
+        .team-member-link {
+          text-decoration: none;
+          font-size: $card-text-fz;
+          color: $text-and-link-color;
+        }
+
+        .dot {
+          padding: 0 5px;
+        }
+
+        .team-member-hr{
+          height: 4px;
+        }
+
+        .team-member-text__title{
+          font-size: $secondPage-fz;
+          color: #323264;
+        }
+
+        .team-member-text__text{
+          max-width: 605px;
+          font-size: $sm-fz;
+        }
+      }
+    }
+  }
+
+.btn-toolbar{
+  @include pagination(#fff);
+}
+
+.my-margin{
+  margin-top: 100px;
+}

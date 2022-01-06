@@ -26,6 +26,10 @@
   }
 }
 
+.btn-toolbar{
+  @include pagination(#ffff)
+}
+
 .my-margin{
   margin-top: 50px;
 }

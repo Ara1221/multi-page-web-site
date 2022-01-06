@@ -27,3 +27,7 @@
   width: $width;
   height: $height;
 }
+
+@mixin pagination($publicationBg){
+  background: $publicationBg;
+}
