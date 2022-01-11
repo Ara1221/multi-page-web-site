@@ -31,7 +31,7 @@
   border-color: #F0145A;
 }
 
-.team-member .team-content-wrapper .team-member-text .name, .team .responsibility, .team-banner .team-content-wrapper .quality, .results .results-content-wrapper .results-title {
+.contact-and-form-wrapper .form-wrapper .form-title, .team-member .team-content-wrapper .team-member-text .name, .team .responsibility, .team-banner .team-content-wrapper .quality, .results .results-content-wrapper .results-title {
   background: linear-gradient(45deg, #EF8080, #F0145A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1448,7 +1448,7 @@ header .header-content .header-menu .mobile-menu-wrapper .mobile-menu {
   }
 }
 .publication {
-  background: #F5F5FA;
+  background: #ffffff;
   height: 1000px;
   padding-top: 35px;
 }
@@ -1531,7 +1531,7 @@ header .header-content .header-menu .mobile-menu-wrapper .mobile-menu {
 }
 
 .btn-toolbar {
-  background: #F5F5FA;
+  background: #ffffff;
 }
 .btn-toolbar .btn {
   border-radius: 10px 0 0 10px;
@@ -1769,7 +1769,7 @@ header .header-content .header-menu .mobile-menu-wrapper .mobile-menu {
   }
 }
 footer {
-  background: #F5F5FA;
+  background: #ffffff;
 }
 footer .footer-content-wrapper {
   padding: 50px 0;
@@ -1807,7 +1807,7 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
 
 @media (max-width: 992px) {
   footer {
-    background: #F5F5FA;
+    background: #ffffff;
   }
   footer .footer-content-wrapper {
     padding: 50px 0;
@@ -1822,7 +1822,7 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
 }
 @media (max-width: 576px) {
   footer {
-    background: #F5F5FA;
+    background: #ffffff;
   }
   footer .footer-content-wrapper {
     padding: 50px 0;
@@ -2728,6 +2728,173 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   .team-member .team-content-wrapper .team-member-text .team-member-text__text {
     max-width: 605px;
     font-size: 18px;
+  }
+}
+.contact-and-form-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-and-form-wrapper .contact {
+  margin-top: 65px;
+}
+.contact-and-form-wrapper .contact .contact__link {
+  color: #24A3FF;
+  text-decoration: none;
+}
+.contact-and-form-wrapper .contact .contact-hr {
+  width: 280px;
+  height: 4px;
+  color: gray;
+}
+.contact-and-form-wrapper .form-wrapper {
+  background: #F5F5FA;
+  border-radius: 10px;
+}
+.contact-and-form-wrapper .form-wrapper .form-title {
+  padding-left: 12px;
+}
+.contact-and-form-wrapper .form-wrapper .input-wrapper {
+  margin-left: 10px;
+  width: 500px;
+  height: 465px;
+}
+.contact-and-form-wrapper .form-wrapper .input-wrapper .form__text {
+  padding-left: 5px;
+}
+.contact-and-form-wrapper .form-wrapper .input-wrapper input {
+  width: 487px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0 5px 7px;
+  margin-top: 20px;
+}
+.contact-and-form-wrapper .form-wrapper .input-wrapper .form__massage {
+  width: 487px;
+  height: 180px;
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0 10px 0;
+  padding: 7px;
+}
+.contact-and-form-wrapper .form-wrapper .input-wrapper::placeholder {
+  color: #B3B3BA;
+}
+.contact-and-form-wrapper .form-wrapper .input-wrapper .form__btn {
+  border: none;
+  color: white;
+  background: #24A3FF;
+  border-radius: 10px;
+  padding: 8px 25px;
+  margin: 10px 0 0 155px;
+  font-size: 14px;
+}
+.contact-and-form-wrapper .form-wrapper .input-wrapper .form__btn:hover {
+  background: #4ccd68;
+  transition: 0.3s;
+}
+
+@media (max-width: 992px) {
+  .contact-and-form-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-and-form-wrapper .contact .contact__link {
+    color: #24A3FF;
+    text-decoration: none;
+  }
+  .contact-and-form-wrapper .contact .contact-hr {
+    width: 280px;
+    height: 4px;
+    color: gray;
+  }
+  .contact-and-form-wrapper .form-wrapper {
+    margin-top: 30px;
+  }
+  .contact-and-form-wrapper .form-wrapper .form-title {
+    padding-left: 12px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper {
+    margin-left: 10px;
+    width: 500px;
+    height: 465px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper .form__text {
+    padding-left: 5px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper input {
+    width: 487px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0 5px 7px;
+    margin-top: 20px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper .form__massage {
+    width: 487px;
+    height: 180px;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+    padding: 7px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper::placeholder {
+    color: #B3B3BA;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper .form__btn {
+    border: none;
+    color: white;
+    background: #24A3FF;
+    border-radius: 10px;
+    padding: 8px 25px;
+    margin: 10px 0 0 155px;
+    font-size: 14px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper .form__btn:hover {
+    background: #4ccd68;
+    transition: 0.3s;
+  }
+}
+@media (max-width: 992px) {
+  .contact-and-form-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-and-form-wrapper .contact .contact__link {
+    color: #24A3FF;
+    text-decoration: none;
+  }
+  .contact-and-form-wrapper .contact .contact-hr {
+    width: 280px;
+    height: 4px;
+    color: gray;
+  }
+  .contact-and-form-wrapper .form-wrapper {
+    margin-top: 30px;
+  }
+  .contact-and-form-wrapper .form-wrapper .form-title {
+    padding-left: 12px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper {
+    margin-left: 10px;
+    width: 500px;
+    height: 465px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper .form__text {
+    padding-left: 5px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper input {
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0 5px 7px;
+    margin-top: 20px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper .form__massage {
+    width: 400px;
+  }
+  .contact-and-form-wrapper .form-wrapper .input-wrapper .form__btn {
+    margin: 10px 0 0 122px;
   }
 }
 

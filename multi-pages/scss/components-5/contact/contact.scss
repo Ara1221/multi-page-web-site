@@ -1,0 +1,76 @@
+.contact-and-form-wrapper {
+  display: flex;
+  justify-content: space-around;
+
+  .contact {
+    margin-top: 65px;
+
+    .contact__link {
+      color: $text-and-link-color;
+      text-decoration: none;
+    }
+
+    .contact-hr {
+      width: 280px;
+      height: 4px;
+      color: gray;
+    }
+  }
+
+  .form-wrapper{
+    background: $successful-cases-bg;
+    border-radius: 10px;
+
+    .form-title{
+      @extend %gradient;
+      padding-left: 12px;
+    }
+
+    .input-wrapper{
+      margin-left: 10px;
+      width: 500px;
+      height: 465px;
+
+      .form__text{
+        padding-left: 5px;
+      }
+
+      input{
+        width: 487px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 0 5px 7px;
+        margin-top: 20px;
+      }
+
+      .form__massage{
+        width: 487px;
+        height: 180px;
+        resize: none;
+        border: none;
+        border-radius: 5px;
+        margin: 20px 0 10px 0;
+        padding: 7px;
+      }
+
+      &::placeholder{
+        color: #B3B3BA;
+      }
+
+      .form__btn{
+        border: none;
+        color: white;
+        background: $text-and-link-color;
+        border-radius: 10px;
+        padding: 8px 25px;
+        margin: 10px 0 0 155px;
+        font-size: $extra-sm-fz;
+
+        &:hover{
+          background: #4ccd68;
+          transition: .3s;
+        }
+      }
+    }
+  }
+}
