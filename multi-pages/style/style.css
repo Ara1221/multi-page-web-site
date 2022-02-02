@@ -2008,6 +2008,7 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   }
   .another-header .header-content .header-menu nav .mobile-menu-wrapper {
     display: block;
+    position: relative;
   }
   .another-header .header-content .header-menu nav .mobile-menu-wrapper .menu-wrapper__number {
     display: block;
@@ -2017,6 +2018,9 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   }
   .another-header .header-content .header-menu nav .mobile-menu-wrapper .mobile-menu {
     display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 70px;
   }
 }
 @media (max-width: 576px) {
@@ -2046,12 +2050,16 @@ footer .footer-content-wrapper .flex-wrapper .footer-contact .footer__second-dot
   }
   .another-header .header-content .header-menu nav .mobile-menu-wrapper {
     display: block;
+    position: relative;
   }
   .another-header .header-content .header-menu nav .mobile-menu-wrapper .menu-wrapper__number {
     display: block;
   }
   .another-header .header-content .header-menu nav .mobile-menu-wrapper .mobile-menu {
     display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
   }
 }
 .results {
